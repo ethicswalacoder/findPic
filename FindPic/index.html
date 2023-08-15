@@ -13,9 +13,9 @@
     />
   </head>
   <body>
-    <nav class="navbar bg-dark py-3">
+    <nav class="navbar bg-dark py-3 sticky-top ">
       <div class="container-fluid">
-        <a class="navbar-brand text-white px-5">FindPic</a>
+        <a class="navbar-brand text-white px-5 brand">FindPic</a>
         <form class="d-flex px-5" role="search" action="">
           <input
             class="form-control me-2"
@@ -35,15 +35,30 @@
       </div>
     </nav>
 
-    <div id="resultContainer" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mx-4 mt-5 search-results">
+    <div id="resultContainer" class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 mx-5 mt-5 search-results ">
+      <div class="col  ">
+        <div
+          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect " 
+        >
+          <img
+            class="img-responsive " style="height: 400px;"
+            src="https://images.unsplash.com/photo-1552098933-a5ceb0e5dd91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+            alt="img1" 
+          />
+          <div class="overlay">
+            <h2 class="heading">Ethics Wala  Coder</h2>
+            <a class="info" href="https://ethicswalacoder.com">Ethics Wala  Coder</a>
+          </div>
+        </div>
+      </div>
       <div class="col " >
         <div
-          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect"
+          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect " 
         >
           <img
-            class="img-responsive"
+            class="img-responsive " style="height: 400px;"
             src="https://www.ethicswalacoder.com/static/media/ethicswala1.4c9c2d107a17f89aa58f.jpg"
-            alt="img1" style="height: 400px;"
+            alt="img1" 
           />
           <div class="overlay">
             <h2 class="heading">Ethics Wala  Coder</h2>
@@ -51,15 +66,14 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col " >
         <div
-          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect"
+          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect " 
         >
           <img
-            class="img-responsive"
-            src="https://www.ethicswalacoder.com/static/media/ethicswala1.4c9c2d107a17f89aa58f.jpg"
-            alt="img1"
-            style="height: 400px;"
+            class="img-responsive " style="height: 400px;"
+            src="https://images.unsplash.com/photo-1648471745757-9037236cea03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=454&q=80"
+            alt="img1" 
           />
           <div class="overlay">
             <h2 class="heading">Ethics Wala  Coder</h2>
@@ -67,38 +81,8 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div
-          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect"
-        >
-          <img
-            class="img-responsive"
-            src="https://www.ethicswalacoder.com/static/media/ethicswala1.4c9c2d107a17f89aa58f.jpg"
-            alt="img1"
-            style="height: 400px;"
-          />
-          <div class="overlay">
-            <h2 class="heading">Ethics Wala  Coder</h2>
-            <a class="info" href="https://ethicswalacoder.com">Ethics Wala  Coder</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div
-          class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded hovereffect"
-        >
-          <img
-            class="img-responsive"
-            src="https://www.ethicswalacoder.com/static/media/ethicswala1.4c9c2d107a17f89aa58f.jpg"
-            alt="img1"
-            style="height: 400px;"
-          />
-          <div class="overlay">
-            <h2 class="heading">Ethics Wala  Coder</h2>
-            <a class="info" href="https://ethicswalacoder.com">Ethics Wala  Coder</a>
-          </div>
-        </div>
-      </div>
+      
+     
     
     </div>
     <button type="button" id="show-more-btn" class="btn btn-secondary btn-sm m-5 " style="display: none;">Show More..</button>

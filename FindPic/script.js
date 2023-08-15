@@ -29,11 +29,17 @@ async function searchImages() {
         imgwraper.classList.add("card");
         const image = document.createElement('img');
         image.src = result.urls.small;
+        image.style.height= '350px';
+        image.style.margin = "10px"
         image.alt = result.alt_description;
-        const imgLink = document.createElement('a')
+        const imgLink = document.createElement('a');
         imgLink.href = result.links.html;
         imgLink.target = "_blank";
         imgLink.textContent = result.alt_description;
+        imgLink.style.color = "black";
+        imgLink.style.padding = "10px";
+        imgLink.style.textDecoration = "none";
+
 
         imgwraper.appendChild(image);
         imgwraper.appendChild(imgLink);
